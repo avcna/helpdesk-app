@@ -36,12 +36,24 @@ const Tickets = () => {
       console.log(error);
     }
   };
+  const times = (time) => {
+    const date = new Date(time.seconds * 1000 + time.nanoseconds / 1000000);
+
+    // Format tanggal dd/mm/yyyy
+    const day = String(date.getDate()).padStart(2, "0");
+    const month = String(date.getMonth() + 1).padStart(2, "0"); // Bulan dimulai dari 0
+    const year = date.getFullYear();
+
+    const formattedDate = `${day}/${month}/${year}`;
+    return formattedDate;
+  };
   useEffect(() => {
     if (unresolved === "unresolved") {
       getAllTicketsListLocation();
     } else {
       getAllTicketsList();
     }
+    console.log(tickets);
   }, []);
 
   const goToDetail = (id) => {
@@ -124,11 +136,12 @@ const Tickets = () => {
                 default:
                   priority = "";
               }
+              let waktu = times(ticket.timestamp);
               return (
                 <tr key={i} className="border-b">
                   <td className="w-[250px] px-2 py-4">{ticket.subject}</td>
                   <td className="w-[200px] px-2 py-4">{ticket.name}</td>
-                  <td className="w-[150px] px-2 py-4">timestamp</td>
+                  <td className="w-[150px] px-2 py-4">{waktu}</td>
                   <td className="w-[100px] px-2 py-4">{priority}</td>
                   <td className="w-[150px] px-2 py-4">{ticket.status}</td>
                   <td className="w-[100px] px-2 py-4 ">
