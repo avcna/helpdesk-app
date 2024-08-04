@@ -19,23 +19,25 @@ const Signup = () => {
   const [isPasswordValid, setIsPasswordValid] = useState(true);
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let newUser = { name: user.name, email: user.email, role: "user" };
-    try {
-      const res = await registerAPI(user.email, user.password);
+    if (isPasswordValid) {
+      let newUser = { name: user.name, email: user.email, role: "user" };
       try {
-        const addUser = await postUserData(newUser);
-        setAndGetTokens("user", user.email, user.name);
-        setUser({
-          name: "",
-          email: "",
-          password: "",
-        });
-        navigate("/create-ticket");
+        const res = await registerAPI(user.email, user.password);
+        try {
+          const addUser = await postUserData(newUser);
+          setAndGetTokens("user", user.email, user.name);
+          setUser({
+            name: "",
+            email: "",
+            password: "",
+          });
+          navigate("/create-ticket");
+        } catch (error) {
+          console.log(error);
+        }
       } catch (error) {
         console.log(error);
       }
-    } catch (error) {
-      console.log(error);
     }
   };
   const handlePasswordChange = (e) => {
