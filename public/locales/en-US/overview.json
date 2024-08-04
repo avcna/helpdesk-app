@@ -1,0 +1,17 @@
+{
+    "unresolved": "Unresolved",
+    "overdue": "Overdue",
+    "open": "Open",
+    "on-hold": "On Hold",
+    "view-all": "View All",
+    "by-progress": "By Progress",
+    "unresolved-tickets": "Unresolved Tickets",
+    "waiting-on-feature-request": "Waiting on Feature Request",
+    "awaiting-developer-fix": "Awaiting Developer Fix",
+    "pending": "Pending",
+    "task": "Task",
+    "today": "Today",
+    "overview": "Overview",
+    "create":"Create New Task"
+  }
+  

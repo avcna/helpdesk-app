@@ -1,0 +1,11 @@
+{
+    "high": "HIGH",
+    "normal": "NORMAL",
+    "low": "LOW",
+    "ticket-details": "Ticket details",
+    "ticket-id": "Ticket ID",
+    "date-submitted": "Date submitted",
+    "submitted-by": "Submitted by",
+    "progress": "Progress",
+    "response": "Response"
+}

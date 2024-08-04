@@ -1,0 +1,16 @@
+{
+  "unresolved": "Belum Terselesaikan",
+  "overdue": "Terlambat",
+  "open": "Terbuka",
+  "on-hold": "Ditahan",
+  "view-all": "Lihat Semua",
+  "by-progress": "Berdasarkan Progres",
+  "unresolved-tickets": "Tiket Belum Terselesaikan",
+  "waiting-on-feature-request": "Menunggu Permintaan Fitur",
+  "awaiting-developer-fix": "Menunggu Perbaikan Pengembang",
+  "pending": "Tertunda",
+  "task": "Tugas",
+  "today": "Hari Ini",
+  "overview": "Ikhtisar",
+  "create":"Buat Tugas Baru"
+}

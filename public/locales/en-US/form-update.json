@@ -1,0 +1,19 @@
+{
+    "response": "Response",
+    "open": "Open",
+    "overdue": "Overdue",
+    "onHold": "On Hold",
+    "closed": "Closed",
+    "priority": "Priority",
+    "high": "HIGH",
+    "normal": "NORMAL",
+    "low": "LOW",
+    "progress": "Progress",
+    "waitingOnFeatureRequest": "Waiting on feature request",
+    "awaitingDeveloperFix": "Awaiting developer fix",
+    "pending": "Pending",
+    "rejectThisTicket": "Reject this ticket?",
+    "yes": "Yes",
+    "no": "No",
+    "update": "Update"
+}

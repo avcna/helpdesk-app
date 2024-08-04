@@ -1,0 +1,8 @@
+{
+    "create-new-ticket": "Create a New Ticket",
+    "subject": "Subject",
+    "description": "Description",
+    "already-create-ticket": "Already created a ticket?",
+    "check-ticket-status": "Check ticket status",
+    "please-save":"Please save the ID for ticket status checking. Your ticket id is : "
+}

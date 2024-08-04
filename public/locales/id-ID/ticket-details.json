@@ -1,0 +1,11 @@
+{
+    "high": "TINGGI",
+    "normal": "NORMAL",
+    "low": "RENDAH",
+    "ticket-details": "Detail Tiket",
+    "ticket-id": "ID Tiket",
+    "date-submitted": "Tanggal Dikirim",
+    "submitted-by": "Dikirim Oleh",
+    "progress": "Kemajuan",
+    "response": "Tanggapan"
+}

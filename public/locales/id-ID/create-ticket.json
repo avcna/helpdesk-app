@@ -1,0 +1,8 @@
+{
+    "create-new-ticket": "Buat Tiket Baru",
+    "subject": "Subjek",
+    "description": "Deskripsi",
+    "already-create-ticket": "Sudah membuat tiket?",
+    "check-ticket-status": "Periksa status tiket",
+    "please-save":"Harap simpan ID untuk memeriksa status tiket. ID tiket Anda adalah :"
+}

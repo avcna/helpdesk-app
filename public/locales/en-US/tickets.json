@@ -1,0 +1,20 @@
+{
+    "all-tickets": "All Tickets",
+    "tickets": "Tickets",
+    "show-all": "Show All",
+    "sort": "Sort",
+    "filter": "Filter",
+    "new": "New",
+    "ticket-details": "Ticket details",
+    "customer-name": "Customer Name",
+    "created-at": "Created At",
+    "priority": "Priority",
+    "status": "Status",
+    "details": "Details",
+    "previous": "Previous",
+    "next": "Next",
+    "high": "HIGH",
+    "normal": "NORMAL",
+    "low": "LOW"
+  }
+  

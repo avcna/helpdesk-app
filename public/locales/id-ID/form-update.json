@@ -1,0 +1,19 @@
+{
+    "response": "Respon",
+    "open": "Terbuka",
+    "overdue": "Terlambat",
+    "onHold": "Ditunda",
+    "closed": "Tertutup",
+    "priority": "Prioritas",
+    "high": "Tinggi",
+    "normal": "Normal",
+    "low": "Rendah",
+    "progress": "Kemajuan",
+    "waitingOnFeatureRequest": "Menunggu permintaan fitur",
+    "awaitingDeveloperFix": "Menunggu perbaikan pengembang",
+    "pending": "Tertunda",
+    "rejectThisTicket": "Tolak tiket ini?",
+    "yes": "Ya",
+    "no": "Tidak",
+    "update": "Perbarui"
+}
