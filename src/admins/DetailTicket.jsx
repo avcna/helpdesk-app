@@ -68,7 +68,7 @@ const DetailTicket = () => {
           <select
             name=""
             id=""
-            className="w-full border border-red-500"
+            className="w-full bg-gray-100 border border-none rounded-lg dark:text-slate-700"
             onChange={(e) =>
               setEditedTicket({ ...editedTicket, status: e.target.value })
             }
@@ -87,7 +87,7 @@ const DetailTicket = () => {
           <select
             name=""
             id=""
-            className="w-full border border-red-500"
+            className="w-full bg-gray-100 border border-none rounded-lg dark:text-slate-700"
             onChange={(e) =>
               setEditedTicket({ ...editedTicket, priority: e.target.value })
             }
@@ -105,7 +105,7 @@ const DetailTicket = () => {
           <select
             name=""
             id=""
-            className="w-full border border-red-500"
+            className="w-full bg-gray-100 border border-none rounded-lg dark:text-slate-700"
             onChange={(e) =>
               setEditedTicket({ ...editedTicket, progress: e.target.value })
             }

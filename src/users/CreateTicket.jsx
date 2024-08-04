@@ -31,7 +31,7 @@ const CreateTicket = () => {
     <section className="flex items-center justify-center w-full h-screen dark:bg-slate-700 dark:text-white">
       <Buttons />
       <form action="" onSubmit={handleSubmit} className="w-[300px]">
-        <h3>Create a New Ticket</h3>
+        <h3>{t("create-new-ticket")}</h3>
         <Input
           label={t("subject")}
           onChange={(e) =>

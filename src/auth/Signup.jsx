@@ -24,7 +24,7 @@ const Signup = () => {
       const res = await registerAPI(user.email, user.password);
       try {
         const addUser = await postUserData(newUser);
-        setAndGetTokens(user.role, user.email, user.name);
+        setAndGetTokens("user", user.email, user.name);
         setUser({
           name: "",
           email: "",
